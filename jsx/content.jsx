@@ -1,5 +1,6 @@
 const React = require('react')
-const ReactDOM = require('react-dom')
+require('../css/main.css')
+require('../node_modules/bootstrap/dist/js/bootstrap.bundle')
 
 class Content extends React.Component{
     constructor(props){
@@ -7,7 +8,7 @@ class Content extends React.Component{
 
     }
     render(){
-    return <div>ДОБРЫЙ ВЕЧИР</div>
+    return <button type="button" className="btn btn-primary">Primary</button>
     }
 }
 

@@ -23,6 +23,8 @@
     "webpack-dev-server": "^3.10.3"
   },
   "dependencies": {
-    "http-server": "^0.12.1"
+    "bootstrap": "^4.4.1",
+    "http-server": "^0.12.1",
+    "jquery": "^3.4.1"
   }
 }
